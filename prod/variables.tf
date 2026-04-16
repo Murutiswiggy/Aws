@@ -23,11 +23,11 @@ variable "public_sub_ip_2" {
 }
 
 variable "availability_zone_1" {
-  default = "eu-west-1a"
+  default = "eu-west-2a"
 }
 
 variable "availability_zone_2" {
-  default = "eu-west-1b"
+  default = "eu-west-2b"
 }
 
 
