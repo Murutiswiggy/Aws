@@ -28,6 +28,7 @@ jobs:
 
       - name: Terraform Run (DEV)
         run: |
+          cd dev
           terraform init
           terraform validate
           terraform plan
@@ -57,6 +58,7 @@ jobs:
 
       - name: Terraform Run (PROD)
         run: |
+          cd prod
           terraform init
           terraform validate
           terraform plan
